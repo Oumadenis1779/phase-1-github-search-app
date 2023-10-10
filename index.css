@@ -1,13 +1,15 @@
-#main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
-#github-container {
-  display: flex;
+form {
+  margin-bottom: 20px;
 }
 
-ul {
-  list-style: none;
+#searchResults,
+#repoResults {
+  margin-top: 20px;
 }
